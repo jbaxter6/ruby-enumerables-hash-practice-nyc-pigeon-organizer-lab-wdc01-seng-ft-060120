@@ -18,8 +18,10 @@ def nyc_pigeon_organizer(data)
         end
       
       hash[name][key].push(inner_key.to_s)
-        
+      
+      end
+  
+      end
+
     end
-  end
-end
 end
