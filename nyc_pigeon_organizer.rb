@@ -7,9 +7,9 @@ def nyc_pigeon_organizer(data)
     # binding.pry
     
     value.each do |inner_key, names|
-      binding.pry
+      #binding.pry
       names.each do |name|
-        
+        binding.pry
         if !hash[name]
           hash[name] = {}
           
